@@ -1,0 +1,19 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+:root{
+    --dark-purple: hsl(248, 70%, 10%);
+    --white: hsl(0, 0%, 100%);
+    --Orange-500: hsl(7, 88%, 67%);
+    --Orange-700: hsl(7, 71%, 60%);
+}
+
+@font-face {
+    font-family: 'inconsolata';
+    src: url('assets/fonts/Inconsolata-VariableFont_wdth\,wght.ttf');
+}
