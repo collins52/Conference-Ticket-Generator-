@@ -3,7 +3,8 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    text-align: center;
+    font-family: 'inconsolata';
+    color: white;
 }
 
 :root{

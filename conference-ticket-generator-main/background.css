@@ -1,0 +1,48 @@
+body{
+ /*background: url(./assets/images/pattern-lines.svg), url('./assets/images/background-mobile.png');*/
+ /* circle
+    squiggly-line-top
+    circle
+    squiggly-line-bottom
+    pattern line
+ */
+ background: 
+     url('./assets/images/pattern-circle.svg')/* circle*/, 
+     url('./assets/images/pattern-squiggly-line-top.svg')/*squiggly line top*/, 
+     url('./assets/images/pattern-circle.svg')/*circle*/, 
+    url('./assets/images/pattern-squiggly-line-bottom.svg')/*squiggly line*/, 
+     url('./assets/images/pattern-lines.svg'),
+     url('./assets/images/background-mobile.png');
+ background-repeat: no-repeat;
+ background-size: 120px 100vh, 120px 100vh, 120px 100vh, 300px 100vh, 280vw 100vh, 150vw 180vh;
+ background-position: -20px -325px, 240px -300px, 285px 260px, 1px 252px, 0 0;
+ background-attachment: fixed, scroll, scroll, scroll, scroll;
+ /*width: 100vw;*/
+ border: 5px solid blue;
+}
+
+/* Top circle */
+#circle-top{
+ width: 100px;
+ height: 100px;
+ top: -10px;
+ left: -10px;
+}
+/* Squiggly line top */
+#squiggly-line-top{
+ width: 100px;
+ height: 100px;
+ right: -1px;
+}
+/* Circle bottom right */
+#circle-bottom-right{
+ width: 120px;
+ top: 490px;
+ right: -40px;
+}
+/*Squiggly line bottom*/
+#squiggly-line-bottom{
+ width: 100px;
+ height: 100px;
+ right: -1px;
+}
