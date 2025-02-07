@@ -1,5 +1,4 @@
 body{
- /*background: url(./assets/images/pattern-lines.svg), url('./assets/images/background-mobile.png');*/
  /* circle
     squiggly-line-top
     circle
@@ -14,11 +13,11 @@ body{
      url('./assets/images/pattern-lines.svg'),
      url('./assets/images/background-mobile.png');
  background-repeat: no-repeat;
- background-size: 120px 100vh, 120px 100vh, 120px 100vh, 300px 100vh, 280vw 100vh, 150vw 180vh;
+ background-size: 120px 100vh, 120px 100vh, 120px 100vh, 300px 100vh, 280vw 100vh, 150vw 300vh;
  background-position: -20px -325px, 240px -300px, 285px 260px, 1px 252px, 0 0;
- background-attachment: fixed, scroll, scroll, scroll, scroll;
- /*width: 100vw;*/
- border: 5px solid blue;
+ background-attachment: scroll, scroll, scroll, scroll, scroll, scroll;
+ padding: 15px;
+ border: 1px solid blue;
 }
 
 /* Top circle */

@@ -10,8 +10,8 @@
 :root{
     --dark-purple: hsl(248, 70%, 10%);
     --white: hsl(0, 0%, 100%);
-    --Orange-500: hsl(7, 88%, 67%);
-    --Orange-700: hsl(7, 71%, 60%);
+    --OrangeOne: hsl(7, 88%, 67%);
+    --OrangeTwo: hsl(7, 71%, 60%);
 }
 
 @font-face {
