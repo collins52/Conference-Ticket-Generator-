@@ -1,5 +1,7 @@
 body{
- /* circle
+ /* 
+ HOW I ARRANGED THE BACGROUND SVGS IN BACKGROUND
+    circle
     squiggly-line-top
     circle
     squiggly-line-bottom
@@ -14,10 +16,9 @@ body{
      url('./assets/images/background-mobile.png');
  background-repeat: no-repeat;
  background-size: 120px 100vh, 120px 100vh, 120px 100vh, 300px 100vh, 280vw 100vh, 150vw 300vh;
- background-position: -20px -325px, 240px -300px, 285px 260px, 1px 252px, 0 0;
+ background-position: -20px -325px, 240px -300px, 285px 260px, 1px 570px, 0 0;
  background-attachment: scroll, scroll, scroll, scroll, scroll, scroll;
  padding: 15px;
- border: 1px solid blue;
 }
 
 /* Top circle */
