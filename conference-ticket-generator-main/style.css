@@ -1,0 +1,201 @@
+@import url('variables.css');
+@import url('background.css');
+
+/*  HEADER  */
+header {
+ text-align: center;
+ margin-top: 30px;
+}
+
+header > .logo{
+ width: 170px;
+ margin-right: 7px;
+}
+
+header > h1 {
+ margin-top: 30px;
+ font-size: 26px;
+ line-height: 30px;
+}
+
+header > p {
+ margin-top: 20px;
+ font-size: 18px;
+ line-height: 25px;
+}
+
+/*  FORM  */
+.form {
+ margin-top: 50px;
+ margin-bottom: 70px;
+}
+
+.form > p {
+ font-size: 21px;
+ margin-bottom: 12px;
+}
+
+/* IMAGE UPLOAD  */
+.imgUploadContainer {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ height: 150px;
+ width: 100%;
+ border: 1px dashed white;
+ border-radius: 10px;
+}
+
+.uploadIcon {
+ width: 50px;
+ background-color: hsla(235, 0%, 100%, 0.29);
+ border: 1px solid hsla(235, 0%, 100%, 0.33);
+ border-radius: 7px;
+}
+
+.imgUploadContainer > p {
+ margin-top: 30px;
+ font-size: 17px;
+}
+
+.uploadedImg{
+ display: none;
+ width: 50px;
+}/* uploaded image*/
+
+.queryImg {
+ display: none;
+ width: 165px;
+ margin-top: 15px;
+ justify-content: space-between;
+ font-size: 12px;
+}
+
+.queryImg {
+ /*display: none;*/
+ width: 165px;
+ margin-top: 15px;
+ justify-content: space-between;
+ font-size: 12px;
+}
+
+.queryImg p {
+ background-color: hsla(235, 0%, 100%, 0.29);
+ border: 1px solid hsla(235, 0%, 100%, 0.33);
+ padding: 3px;
+ border-radius: 3px;
+}
+
+/*  UPLOAD SIZE  */
+.uploadSizeInfo {
+ display: flex;
+}
+
+.uploadSizeInfo > p {
+ font-size: 12px;
+ margin: 10px 0 0 10px;
+}
+
+.uploadSizeInfo > img {
+ width: 14px;
+ margin-top: 10px;
+}
+
+/*  FORM USER NAMES AND INPUTS  */
+
+.userNames {
+ height: 60vh;
+ margin-top: 30px;
+}
+
+input{
+ width: 100%;
+ height: 55px;
+ border-radius: 10px;
+ border: 1px solid white;
+ margin: 15px 0 30px 0;
+ background: hsla(235, 0%, 100%, 0.15);
+ padding: 0 10px;
+}
+
+input::placeholder{
+ color: hsla(0, 0%, 100%, 0.62);
+ font-size: 17px;
+}
+
+.userNames label{
+ font-size: 20px;
+}
+
+button{
+ width: 90%;
+ height: 55px;
+ background-color: var(--OrangeOne);
+ border: none;
+ border-radius: 10px;
+ font-size: 18px;
+ font-weight: bold;
+ color: var(--dark-purple);
+ margin-left: 16px;
+ margin-top: 20px;
+}
+
+/*  TICKET  */
+
+#ticket{
+ width: 320px;
+ border: 1px solid white;
+ margin: 40px auto 0 auto;
+ background-image: url('./assets/images/pattern-ticket.svg');
+ background-repeat: no-repeat;
+ background-size: 318px 149px;
+ height: 151px;
+ padding: 20px;
+ display: none;
+}
+
+#ticket > div {
+ display: flex;
+ margin-top: 25px;
+}
+
+#ticket > div > div {
+ display: flex;
+ flex-direction: column;
+ margin-left: 5px;
+}
+
+#ticketHeader{
+ display: none;
+}
+
+#ticketHeader .name {
+ background: linear-gradient(90deg, rgba(245, 114, 97, 1) 20%, rgba(255, 255, 255, 1) 95%);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+#fetchedEmail{
+ color: var(--OrangeOne);
+}
+
+#logo{
+ width: 150px;
+}
+
+#ticketImage{
+ width: 50px;
+ height: 50px;
+ border-radius: 4px;
+}
+
+#gitHubContainer{
+ display: flex;
+ align-items: center;
+ margin-top: 10px;
+}
+
+.currentDate{
+ margin-top: 10px
+  }
