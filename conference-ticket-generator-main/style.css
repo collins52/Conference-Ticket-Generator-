@@ -145,7 +145,6 @@ button{
 
 #ticket{
  width: 320px;
- border: 1px solid white;
  margin: 40px auto 0 auto;
  background-image: url('./assets/images/pattern-ticket.svg');
  background-repeat: no-repeat;
