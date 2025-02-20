@@ -1,13 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  <title>Conference ticket generator</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title></title>
+  <link rel="stylesheet" href="style.css"/>
+  <script type="text/javascript" charset="utf-8" src="script.js" defer></script>
 </head>
 <body>
+ <header>
+  <!-- LOGO -->
+  <img src="./assets/images/logo-full.svg" alt="Coding-Config" class="logo"/>
+  
+  <h1>Your Journey To Coding Conf 2025 Starts Here!</h1>
+  <p>Secure your spot at next year's biggest coding conference</p>
+ </header>
+ 
+ <main>
+  <!-- form -->
+  <div class="form">
+   <!-- upload image -->
+   <p>Upload Avatar</p>
+   <!-- Image upload container -->
+   <div class="imgUploadContainer">
+    
+    <!-- upload icon -->
+    <img src="./assets/images/icon-upload.svg" alt="upload icon" class="uploadIcon">
+    <!-- upload instruction -->
+    <p class="uploadInstruction">Drag and drop or click to upload</p>
+    <!-- input file -->
+    <input type="file" name="uploadAvatar" id="inputFile" hidden/>
+    <!-- img element to store uploaded image file from input-->
+    <img class="uploadedImg" alt="uploaded image avatar"/>
+    <!-- query image container to remove or change uploaded image-->
+    <div class="queryImg">
+     <p id="removeImg">Remove image</p>
+     <p id="changeImg">Change image</p>
+    </div>
+    
+   </div> <!-- image upload container -->
+   
+   <!-- image upload instruction on size-->
+   <div class="uploadSizeInfo">
+    <img src="./assets/images/icon-info.svg" id="logo-info" alt="information icon" />
+    <p>Upload your photo (JPG or PNG, max size: 500kb)</p>
+   </div> <!-- upload size  -->
+   
+   <!-- Full name, email, github user name -->
+   <div class="userNames">
+        <!-- FULL NAME -->
+    <label for="fullName">Full Name</label>
+    <input type="text" name="fullName" id="fullName" value="Collins Tega Omonievusa"/>
+    <!-- EMAIL -->
+    <label for="email">Email Address</label>
+    <input type="text" name="email" id="email" placeholder="example@email.com" value="collinsomonievusa@gmail.com"/>
+    <!-- GIT HUB USER NAME -->
+    <label for="gitName">GitHub Username</label>
+    <input type="text" name="gitName" id="gitName" placeholder="@your username" value="@collins52"/>
+    <!-- BUTTON -->
+    <button id="generateTicket">Generate my ticket</button>
+   </div> <!-- user names -->
+   
+  </div> <!-- form -->
+  
+ </main>
+ 
+ <!-- TICKET --> <!-- Ticket displays after filling out the entire form and clicking the button -->
+ 
+ <header id="ticketHeader">
+  <img src="./assets/images/logo-full.svg" alt="Coding-Config" /><!-- logo -->
+  <h1>Congrats, <span class="name">Collins Tega Omonievusa</span> Your ticket is ready.</h1>
+  <p>We've emailed your ticket to <span id="fetchedEmail">collinsomonievusa@gmail.com</span> and will send update in the run up to the event</p>
+ </header>
+ 
+ <div id="ticket">
+  <img src="./assets/images/logo-full.svg" alt="Coding-Config" id="logo" />
+  <p><span id="date">feb 17, 2025</span> / Austin, TX</p><!-- current date -->
+  <div>
+   <img src="./assets/images/image-avatar.jpg" alt="" id="ticketImage" />
+   <div>
+    <p class="name">Collins Tega Omonievusa</p><!-- This awaits form to be filled and submitted -->
+    <div id="gitHubContainer">
+     <img src="./assets/images/icon-github.svg" alt="" id="gitHubIcon"> <!-- git hub icon -->
+     <p id="gitHubUserName">@collins52</p><!-- This awaits form to be filled and submitted -->
+    </div>
+   </div>
+  </div>
+ </div> <!-- ticket -->
   
 </body>
+
 </html>
